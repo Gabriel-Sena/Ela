@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+p {
+  color: #fff;
+  display: none; /* Inicialmente oculto */
+}
+
+img {
+  margin-bottom: 20px;
+  max-width: 30%;
+  height: auto;
+  display: none; /* Inicialmente oculto */
+}
+
+video {
+  display: none; /* Inicialmente oculto */
+  margin-bottom: 20px;
+  max-width: 30%;
+  height: 70%;
+}
+
+#videoText {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  font-size: 1.5em;
+  color: #fff;
+  border-radius: 5px;
+  display: none; /* Inicialmente oculto */
+  text-shadow: 
+    0 0 5px #fff, 
+    0 0 10px #fff, 
+    0 0 20px #ff00ff, 
+    0 0 30px #ff00ff, 
+    0 0 40px #ff00ff, 
+    0 0 50px #ff00ff, 
+    0 0 60px #ff00ff;
+  animation: neon-blink 1.5s infinite alternate;
+}
+
+@keyframes neon-blink {
+  0%, 100% {
+    text-shadow: 
+      0 0 5px #fff, 
+      0 0 10px #fff, 
+      0 0 20px #ff00ff, 
+      0 0 30px #ff00ff, 
+      0 0 40px #ff00ff, 
+      0 0 50px #ff00ff, 
+      0 0 60px #ff00ff;
+    color: #fff;
+  }
+  50% {
+    text-shadow: 
+      0 0 2px #fff, 
+      0 0 5px #fff, 
+      0 0 10px #ff00ff, 
+      0 0 15px #ff00ff, 
+      0 0 20px #ff00ff, 
+      0 0 25px #ff00ff, 
+      0 0 30px #ff00ff;
+    color: #ff00ff;
+  }
+}
