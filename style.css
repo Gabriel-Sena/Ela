@@ -14,11 +14,6 @@ body {
   flex-direction: column;
 }
 
-p {
-  color: #fff;
-  display: none; /* Inicialmente oculto */
-}
-
 img {
   margin-bottom: 20px;
   max-width: 30%;
@@ -95,5 +90,7 @@ video {
   
   #videoText {
     top: 10%;
+    font-size: 100px;
+    text-transform: uppercase;
   }
 }
