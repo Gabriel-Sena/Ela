@@ -36,7 +36,6 @@ video {
   padding: 10px;
   font-size: 2em;
   color: #fff;
-  border-radius: 5px;
   display: none; /* Inicialmente oculto */
   /* text-shadow: 
     0 0 5px #fff, 
@@ -85,11 +84,12 @@ video {
   }
 
   video {
+    max-width: 60%;
     height: 60%;
   }
   
   #videoText {
-    top: 10%;
-  font-size: 1.5em;
+    top: 5%;
+    font-size: 1rem;
   }
 }
