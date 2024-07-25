@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       displayImage.style.display = "none"; // Esconde a imagem se estiver visível
       videoText.style.display = "block"; // Esconde o texto do vídeo
       displayVideo.style.display = "block"; // Exibe o contêiner de vídeo
-      displayVideo.src = "apaixonadoooooo.mp4"; // Substitua pelo caminho do seu vídeo local
+      displayVideo.src = "./assets/apaixonadoooooo.mp4"; // Substitua pelo caminho do seu vídeo local
       displayVideo.play(); // Inicia a reprodução do vídeo automaticamente
     } else if (selectedValue) {
       displayVideo.pause(); // Pausa o vídeo se estiver reproduzindo
