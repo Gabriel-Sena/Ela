@@ -78,3 +78,22 @@ video {
     color: #ff00ff;
   }
 }
+
+@media (max-width: 450px) {
+  select {
+    width: 100px;
+    height: 50px;
+  }  
+
+  img{
+    max-width: 50%;
+  }
+
+  video {
+    height: 60%;
+  }
+  
+  #videoText {
+    top: 10%;
+  }
+}
